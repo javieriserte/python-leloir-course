@@ -11922,7 +11922,7 @@ a.anchor-link {
 <h1 id="Antes-de-empezar">Antes de empezar<a class="anchor-link" href="#Antes-de-empezar">&#182;</a></h1><ul>
 <li>Ir a una consola de sistema operativo</li>
 <li>Ir a la carpeta con el contenido del curso<pre>
-$ jupyter nbconvert presentation.ipynb --to slide --post serve
+$ jupyter nbconvert presentation.ipynb --to slides --post serve
 </pre></li>
 <li>Deberían poder ver esta presentación en el navegador</li>
 </ul>
@@ -12118,95 +12118,42 @@ Las funciones en general reciben argumentos entre paréntesis, realizan alguna a
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Variables,-valores-y-tipos">Variables, valores y tipos<a class="anchor-link" href="#Variables,-valores-y-tipos">&#182;</a></h1><h2 id="Todas-las-variables-tienen-un-valor-asignado-y-todos-los-valores-tienen-un-tipo-asociado.">Todas las variables tienen un valor asignado y todos los valores tienen un tipo asociado.<a class="anchor-link" href="#Todas-las-variables-tienen-un-valor-asignado-y-todos-los-valores-tienen-un-tipo-asociado.">&#182;</a></h2>
+<h1 id="Variables,-valores-y-tipos">Variables, valores y tipos<a class="anchor-link" href="#Variables,-valores-y-tipos">&#182;</a></h1>
 </div>
 </div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[3]:</div>
+</div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
 <div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">variable1</span> <span class="o">=</span> <span class="mi">1</span>              
-<span class="n">variable2</span> <span class="o">=</span> <span class="s1">&#39;HOLA&#39;</span>         
-<span class="n">variable3</span> <span class="o">=</span> <span class="n">variable1</span> <span class="o">+</span> <span class="mi">1</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">variable1</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">variable2</span><span class="p">))</span>
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Una <strong>variable</strong> es un espacio para almacenar datos modificables en la memoria de la computadora; una vez declarada Python recordara que esa variable contiene los datos de las caracteristicas que le hayamos asignado.
+Estas pueden ser declaradas simplemente haciendo:</p>
+<div class="highlight"><pre><span></span><span class="n">variable</span> <span class="o">=</span> <span class="mi">1</span>
+<span class="n">mi_variable</span> <span class="o">=</span> <span class="s1">&#39;Hola</span>
+<span class="n">variable2</span> <span class="o">=</span> <span class="n">variable</span> <span class="o">+</span> <span class="mi">1</span>
 </pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area">
-
-<div class="prompt"></div>
-
-
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>&lt;class &#39;int&#39;&gt;
-&lt;class &#39;str&#39;&gt;
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div></div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li>1 es un valor de tipo <strong>entero</strong> (int). </li>
-<li>'hola' es un valor de tipo <strong>string</strong> (str).</li>
-<li><strong>type</strong> es una función de devuelve el tipo de un valor.</li>
-</ul>
-
-</div>
-</div>
-</div></div></section><section>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Pero-las-variables-no-tienen-un-tipo.">Pero las variables no tienen un tipo.<a class="anchor-link" href="#Pero-las-variables-no-tienen-un-tipo.">&#182;</a></h2>
-</div>
-</div>
-</div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[4]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">variable1</span> <span class="o">=</span> <span class="mi">1</span>              
-<span class="n">variable1</span> <span class="o">=</span> <span class="s1">&#39;HOLA&#39;</span>
+<h5 id="Todas-las-variables-tienen-un-valor-asignado-y-todos-los-valores-tienen-un-tipo-asociado.-Por-medio-de-la-funci&#243;n-type()-podemos-conocer-el-tipo-de-dato-que-almacena-nuestra-variable:">Todas las variables tienen un valor asignado y todos los valores tienen un tipo asociado. Por medio de la funci&#243;n type() podemos conocer el tipo de dato que almacena nuestra variable:<a class="anchor-link" href="#Todas-las-variables-tienen-un-valor-asignado-y-todos-los-valores-tienen-un-tipo-asociado.-Por-medio-de-la-funci&#243;n-type()-podemos-conocer-el-tipo-de-dato-que-almacena-nuestra-variable:">&#182;</a></h5><div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">variable1</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">variable2</span><span class="p">))</span>
 </pre></div>
+<p><strong>Reto</strong>: Declará una 'variable_3' que almacene el doble del valor de la variable 2 e imprimí el tipo de dato que almacena.</p>
 
 </div>
 </div>
-</div>
-
-</div></div><div class="fragment">
+</div><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La variable <strong>variable1</strong> no está 'atada' a un tipo específico, como sucede en otros lenguajes de programación.</p>
+<p><strong>Reto</strong>: Declará una 'variable_4' que almacene la relación entre la la variable 3. ¿Qué tipo de datos almacena la variable 4?</p>
 
 </div>
 </div>
-</div></div></section></section><section><section>
+</div><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Algunos-delos-tipos-b&#225;sicos-de-Python-son:">Algunos delos tipos b&#225;sicos de Python son:<a class="anchor-link" href="#Algunos-delos-tipos-b&#225;sicos-de-Python-son:">&#182;</a></h2><ul>
+<h2 id="Algunos-delos-tipos-b&#225;sicos-de-datos-en-Python-son:">Algunos delos tipos b&#225;sicos de datos en Python son:<a class="anchor-link" href="#Algunos-delos-tipos-b&#225;sicos-de-datos-en-Python-son:">&#182;</a></h2><ul>
 <li>int - para representar números enteros</li>
 <li>long - para representar números enteros muy largos</li>
 <li>float - para representar números decimales</li>
@@ -12217,7 +12164,28 @@ Las funciones en general reciben argumentos entre paréntesis, realizan alguna a
 
 </div>
 </div>
-</div></section></section><section><section>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Pero-las-variables-no-tienen-un-tipo.">Pero las variables no tienen un tipo.<a class="anchor-link" href="#Pero-las-variables-no-tienen-un-tipo.">&#182;</a></h2><p>La variable variable1 no está 'atada' a un tipo específico, como sucede en otros lenguajes de programación. De hecho, podríamos reasignar valores a una variable simplemente declarandolo de este modo:</p>
+<div class="highlight"><pre><span></span><span class="n">variable_4</span> <span class="o">=</span> <span class="s2">&quot;Roberto&quot;</span>
+</pre></div>
+<p>¿Qué ocurre si aplicamos la función <strong>type()</strong> a la variable 4 ahora?</p>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La variable <strong>variable1</strong> no está 'atada' a un tipo específico, como sucede en otros lenguajes de programación.</p>
+
+</div>
+</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12267,6 +12235,9 @@ Las funciones en general reciben argumentos entre paréntesis, realizan alguna a
 </tr>
 </tbody>
 </table>
+<p><strong>Reto</strong>:¿Qué resultado arroja la siguiente operación?¿Podrías definir cuál fue la sucesión de pasos que se ejecutaron en esa linea?</p>
+<div class="highlight"><pre><span></span><span class="k">print</span><span class="p">(</span><span class="mi">5</span><span class="o">+</span><span class="mi">30</span><span class="o">*</span><span class="mi">20</span><span class="p">)</span>
+</pre></div>
 
 </div>
 </div>
@@ -12344,7 +12315,7 @@ Las funciones en general reciben argumentos entre paréntesis, realizan alguna a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
@@ -12381,7 +12352,21 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Manejo-de-strings">Manejo de strings<a class="anchor-link" href="#Manejo-de-strings">&#182;</a></h1><p>Hay varias funciones y operadores que permiten operar con strings.</p>
+<h1 id="Manejo-de-strings">Manejo de strings<a class="anchor-link" href="#Manejo-de-strings">&#182;</a></h1><ul>
+<li><strong>String</strong> es un tipo de dato que se puede entender como una sucesión de caracteres o una cadena de caracteres. </li>
+<li>Podemos un string simplemente escribiendo los caracteres/el caracter entre comillas. <div class="highlight"><pre><span></span><span class="n">mi_string</span> <span class="o">=</span> <span class="s2">&quot;este es mi primer string&quot;</span>
+</pre></div>
+</li>
+<li>Python trata las comillas simples al igual que las comillas dobles.</li>
+<li>En un string el primer calor tiene índice cero.</li>
+<li>Hay varias funciones y operadores que permiten trabajar con strings.</li>
+</ul>
+<p><strong>Reto</strong>: ¿Qué resultado nos daría la siguiente operación?:</p>
+<div class="highlight"><pre><span></span><span class="nb">type</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="o">==</span> <span class="nb">type</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">)</span>
+</pre></div>
+<p>¿Y qué resultado nos daría la siguiente operación?:</p>
+<div class="highlight"><pre><span></span><span class="s1">&#39;python&#39;</span> <span class="o">==</span> <span class="s1">&#39;Python&#39;</span>
+</pre></div>
 
 </div>
 </div>
@@ -12423,7 +12408,16 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La función <strong>str</strong> convierte valores a string.</p>
+<p><strong>Reto</strong>:¿Qué otros operadores matemáticos funcionan con strings?¿Qué resultados obtenes?</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La función <strong>str()</strong> convierte valores a string.</p>
 
 </div>
 </div>
@@ -12467,7 +12461,7 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se puede acceder a los caracteres individuales de un string.</p>
+<p>Se puede acceder a los caracteres individuales de un string, del siguiente modo:</p>
 
 </div>
 </div>
@@ -12512,7 +12506,7 @@ False
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Las funciones .upper y .lower permiten convertir los strings a mayúsculas y minúsculas</p>
+<p>Las funciones <strong>upper()</strong> y <strong>lower()</strong> permiten convertir los strings a mayúsculas y minúsculas</p>
 
 </div>
 </div>
@@ -12556,7 +12550,7 @@ hola
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La función .split separa un string en una lista de strings, usando una caracter como separador. Por defecto el separador es un espacio en blanco o un tab.</p>
+<p>La función <strong>split()</strong> separa un string en una lista de strings, usando una caracter como separador. Por defecto el separador es un espacio en blanco o un tab.</p>
 
 </div>
 </div>
@@ -12599,7 +12593,7 @@ hola
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La función .join junta varios strings en uno solo, usando otro string como separador.</p>
+<p>La función <strong>join()</strong> junta varios strings en uno solo, usando otro string como separador.</p>
 
 </div>
 </div>
@@ -12642,7 +12636,7 @@ hola
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Las funciones .strip, .rstrip y .lstrip eliminan los carácteres en blanco al inicio y/o fin de un string.</p>
+<p>Las funciones <strong>strip()</strong>, <strong>rstrip()</strong> y <strong>lstrip()</strong> eliminan los carácteres en blanco al inicio y/o fin de un string.</p>
 
 </div>
 </div>
@@ -12685,7 +12679,7 @@ hola
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La función .replace permite cambiar un fragmento de un string por otro.</p>
+<p>La función <strong>replace()</strong> permite cambiar un fragmento de un string por otro.</p>
 
 </div>
 </div>
@@ -12728,7 +12722,7 @@ hola
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>La función .find busca un string dentro de otro. Devuelve el índice de la primera vez que se encuentra.</p>
+<p>La función <strong>find()</strong> busca un string dentro de otro. Devuelve el índice de la primera vez que se encuentra.</p>
 
 </div>
 </div>
@@ -12766,6 +12760,49 @@ hola
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>La función <strong>startswith()</strong> checkea si un string comienza con un dado caracter o substring y nos devuelve un booleano:</p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;Buscar una aguja en un pajar&quot;</span>
+<span class="n">s</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s2">&quot;aguja&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt output_prompt">Out[8]:</div>
+
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>False</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12788,7 +12825,11 @@ Algunas de estas estructuras de datos son:</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Tuplas">Tuplas<a class="anchor-link" href="#Tuplas">&#182;</a></h2><p>Agrupamiento ordenado de valores, usualmente pocos. Los valores no tienen que ser del mismo tipo. Las tuplas son inmutables.</p>
+<h2 id="Tuplas">Tuplas<a class="anchor-link" href="#Tuplas">&#182;</a></h2><ul>
+<li>Agrupamiento ordenado de valores, usualmente pocos. </li>
+<li>Los valores no tienen que ser del mismo tipo. </li>
+<li>Las tuplas son inmutables.</li>
+</ul>
 
 </div>
 </div>
@@ -12918,9 +12959,9 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>La función <strong>append</strong> agrega un elemento a una lista.</li>
-<li>¿Por qué está el punto entre el nombre de la variable y <strong>append</strong>?</li>
+<li>La función <strong>append()</strong> agrega un elemento a una lista.</li>
 </ul>
+<p>¿Por qué está el punto entre el nombre de la variable y <strong>append()</strong>?</p>
 
 </div>
 </div>
@@ -12945,7 +12986,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>La función <strong>remove</strong> elimina un elemento a una lista.</li>
+<li>La función <strong>remove()</strong> elimina un elemento a una lista.</li>
 </ul>
 
 </div>
@@ -12997,7 +13038,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <ul>
-<li>La función <strong>pop</strong> elimina un valor por el índice.</li>
+<li>La función <strong>pop()</strong> elimina un valor por el índice.</li>
 </ul>
 
 </div>
@@ -13082,6 +13123,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>El operador '+' permite concatenar dos listas.</p>
+<p><strong>¿Qué otros operadores matemáticos funcionan con listas?¿Qué resultados obtenes?</strong></p>
 
 </div>
 </div>
@@ -13091,12 +13133,12 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Otras-funciones-de-listas-importantes">Otras funciones de listas importantes<a class="anchor-link" href="#Otras-funciones-de-listas-importantes">&#182;</a></h3><ul>
-<li>.extend = agrega elementos de una lista a otra.</li>
-<li>.index = devuelve el índice en la lista de un valor dado.</li>
-<li>.count = devuelve la cantidad de veces que un elemento está en la lista.</li>
-<li>.sort = ordena los valores de la lista</li>
-<li>.reverse = invierte los valores de una lista</li>
-<li>len = devuelve la cantidad de elementos en la lista.</li>
+<li>extend() = agrega elementos de una lista a otra.</li>
+<li>index() = devuelve el índice en la lista de un valor dado.</li>
+<li>count() = devuelve la cantidad de veces que un elemento está en la lista.</li>
+<li>sort() = ordena los valores de la lista</li>
+<li>reverse() = invierte los valores de una lista</li>
+<li>len() = devuelve la cantidad de elementos en la lista.</li>
 </ul>
 
 </div>
@@ -13107,7 +13149,12 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Diccionarios">Diccionarios<a class="anchor-link" href="#Diccionarios">&#182;</a></h2><ul>
-<li>Los diccionarios son agrupaciones de datos del tipos Clave -&gt; Valor. No tienen orden.*</li>
+<li>Los diccionarios son agrupaciones de datos del tipos Clave -&gt; Valor. No tienen orden. Así como las listas se declaran con corchetes y las tuple con paréntesis, los diccionarios se declaran con llaves, siguiendo la sintaxis midict = {clave_1: "valor",clave_2: "valor"}<div class="highlight"><pre><span></span><span class="n">mamiferos</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;orangutan&quot;</span> <span class="p">:</span> <span class="s1">&#39;placentario&#39;</span><span class="p">,</span><span class="s2">&quot;canguro&quot;</span> <span class="p">:</span> <span class="s1">&#39;marsupial&#39;</span><span class="p">}</span>
+</pre></div>
+</li>
+<li>Se puede acceder a los valores para cada clave haciendo, por ejemplo:<div class="highlight"><pre><span></span><span class="n">mamiferos</span><span class="p">[</span><span class="s1">&#39;orangutan&#39;</span><span class="p">]</span>
+</pre></div>
+</li>
 <li>¿Qué cosas quiero hacer un diccionario?<ul>
 <li>Guardar (o actualizar) un dato con clave</li>
 <li>Recuperar un dato por su clave</li>
@@ -13126,8 +13173,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">personas</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>  <span class="c1"># También se puede escribir personas = {}</span>
-<span class="c1"># la función dict crea un nuevo diccionario vacio.</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">personas</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>  <span class="c1"># la función dict crea un nuevo diccionario vacio.</span>
 <span class="n">personas</span><span class="p">[</span><span class="mi">20000001</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Jose Perez&#39;</span>
 <span class="n">personas</span><span class="p">[</span><span class="mi">20000002</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Julian Alvarez&#39;</span>
 <span class="n">personas</span><span class="p">[</span><span class="mi">20000001</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Jose Jorge Perez&#39;</span>
@@ -13145,7 +13191,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Recuperar-todas-las-claves-y-valores">Recuperar todas las claves y valores<a class="anchor-link" href="#Recuperar-todas-las-claves-y-valores">&#182;</a></h3><ul>
-<li>Las funciones <strong>keys</strong> y <strong>values</strong> permiten recuperar listas con las claves y los valores. </li>
+<li>Las funciones <strong>keys()</strong> y <strong>values()</strong> permiten recuperar listas con las claves y los valores. </li>
 <li>No tienen ningún orden.</li>
 </ul>
 
@@ -13239,10 +13285,10 @@ Algunas de estas estructuras de datos son:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionarioUno</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">diccionarioUno</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="n">diccionarioUno</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Uno&#39;</span>
 <span class="n">diccionarioUno</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;Dos&#39;</span>
 </pre></div>
@@ -13306,11 +13352,11 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Otras-funciones-&#250;tiles-de-diccionarios">Otras funciones &#250;tiles de diccionarios<a class="anchor-link" href="#Otras-funciones-&#250;tiles-de-diccionarios">&#182;</a></h3><ul>
-<li>.clear : Borra todos los elementeos de diccionario</li>
-<li>.copy : Devuelve una copia del diccionario</li>
-<li>.items : Delvuelve una lista de tuplas (clave, valor)</li>
-<li>.update : Actualiza un diccionario con valores de otro.</li>
-<li>len : Devuelve la cantidad de elementos en el diccionario.</li>
+<li>clear() : Borra todos los elementeos de diccionario</li>
+<li>copy() : Devuelve una copia del diccionario</li>
+<li>items() : Delvuelve una lista de tuplas (clave, valor)</li>
+<li>update() : Actualiza un diccionario con valores de otro.</li>
+<li>len() : Devuelve la cantidad de elementos en el diccionario.</li>
 </ul>
 
 </div>
@@ -13322,7 +13368,7 @@ Algunas de estas estructuras de datos son:</p>
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Sets">Sets<a class="anchor-link" href="#Sets">&#182;</a></h2><ul>
 <li>Los sets con agrupaciones no ordenadas de valores que no permiten repeticiones.</li>
-<li>Que quiero hacer con un set.<ul>
+<li>Que quiero hacer con un set:<ul>
 <li>Guardar valores</li>
 <li>Eliminar valores</li>
 <li>Saber si un valor pertenece al set</li>
@@ -13336,7 +13382,7 @@ Algunas de estas estructuras de datos son:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">setUno</span> <span class="o">=</span> <span class="nb">set</span><span class="p">()</span>
@@ -13350,6 +13396,24 @@ Algunas de estas estructuras de datos son:</p>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>set([2, 3, 5, 7])
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13402,7 +13466,7 @@ Algunas de estas estructuras de datos son:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[16]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">listaDesdeSet</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span> <span class="n">setUno</span> <span class="p">)</span>
@@ -13422,15 +13486,9 @@ Algunas de estas estructuras de datos son:</p>
 <div class="prompt"></div>
 
 
-<div class="output_subarea output_text output_error">
-<pre>
-<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
-<span class="ansi-red-fg">NameError</span>                                 Traceback (most recent call last)
-<span class="ansi-green-fg">&lt;ipython-input-16-833ac13043cd&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span><span class="ansi-blue-fg">()</span>
-<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>listaDesdeSet <span class="ansi-blue-fg">=</span> list<span class="ansi-blue-fg">(</span> setUno <span class="ansi-blue-fg">)</span>
-<span class="ansi-green-intense-fg ansi-bold">      2</span> print<span class="ansi-blue-fg">(</span> listaDesdeSet <span class="ansi-blue-fg">)</span>
-
-<span class="ansi-red-fg">NameError</span>: name &#39;setUno&#39; is not defined</pre>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>[2, 3, 5, 7]
+</pre>
 </div>
 </div>
 
@@ -13464,18 +13522,18 @@ Algunas de estas estructuras de datos son:</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>La estructura general es:</p>
-<pre>
-if **condición** :
-    **Codigo si la condición es verdadera**
-else :
-    **Codigo si la condición es falsa**
-</pre>
+<div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">condicion</span><span class="p">:</span>
+    <span class="n">Codigo</span> <span class="n">si</span> <span class="n">la</span> <span class="n">condicion</span> <span class="n">es</span> <span class="n">verdadera</span>
+<span class="k">else</span> <span class="p">:</span>
+    <span class="n">Codigo</span> <span class="n">si</span> <span class="n">la</span> <span class="n">condicion</span> <span class="n">es</span> <span class="n">falsa</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[17]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">1</span>
@@ -13520,13 +13578,94 @@ else :
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[18]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
 <span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
     <span class="n">mensaje</span> <span class="o">=</span> <span class="s2">&quot;a es igual a cero&quot;</span>
     <span class="nb">print</span><span class="p">(</span><span class="n">mensaje</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>a es igual a cero
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Es importante tener presente las identaciones(o espacios al comienzo de linea) luego de los dos puntos. Esta define bloques de ejecución.</li>
+<li>Esta identación se escribe automaticamente en entornos como Jupyter. De hacerlo manualmente, se recomientda utilizar un tab a modo de identacion, aunque puede elegirse un o dos espacios. Siempre a lo largo del código debe respetarse la identacion elegida.</li>
+<li>De no utilizar la correcta identación Python nos alertará de nuestro error con un cartel <strong>'IdentationError'</strong>:</li>
+</ul>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+    <span class="n">mensaje</span> <span class="o">=</span> <span class="s2">&quot;a es igual a cero&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mensaje</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>a es igual a cero
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">:</span>
+    <span class="n">mensaje</span> <span class="o">=</span> <span class="s2">&quot;a es igual a cero&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">mensaje</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -13662,18 +13801,18 @@ else :
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>La estructura general es:</p>
-<pre>
-while **condición** :
-    **Codigo mientras la condición es verdadera**
-else:
-    **Codigo cuando la condición pasa a ser falsa**
-</pre>
+<div class="highlight"><pre><span></span><span class="k">while</span> <span class="n">condicion</span><span class="p">:</span>
+    <span class="n">Codigo</span> <span class="n">mientras</span> <span class="n">la</span> <span class="n">condicion</span> <span class="n">es</span> <span class="n">verdadera</span>
+<span class="k">else</span><span class="p">:</span>
+    <span class="n">Codigo</span> <span class="n">cuando</span> <span class="n">la</span> <span class="n">condicion</span> <span class="n">pasa</span> <span class="n">a</span> <span class="n">ser</span> <span class="n">falsa</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[21]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">contador</span> <span class="o">=</span> <span class="mi">0</span>
@@ -13734,16 +13873,16 @@ no hay más números mayores o iguales que cero y menores que 5
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>La estructura general es:</p>
-<pre>
-for elemento in coleccion:
-    Codigo para cada elemento
-</pre>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">elemento</span> <span class="ow">in</span> <span class="n">coleccion</span><span class="p">:</span>
+    <span class="n">Codigo</span> <span class="n">para</span> <span class="n">cada</span> <span class="n">elemento</span>
+</pre></div>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[22]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">letra</span> <span class="ow">in</span> <span class="s2">&quot;hola&quot;</span> <span class="p">:</span>
@@ -13786,7 +13925,7 @@ a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[23]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fibo</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">5</span><span class="p">,</span><span class="mi">8</span><span class="p">]</span>
@@ -13830,7 +13969,7 @@ a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[24]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">index</span><span class="p">,</span> <span class="n">value</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="s2">&quot;hola&quot;</span><span class="p">):</span>
@@ -13875,7 +14014,7 @@ a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[25]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">impar</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">10</span><span class="p">,</span><span class="mi">2</span><span class="p">)</span> <span class="p">:</span>
@@ -13919,7 +14058,7 @@ a
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[26]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">dicc</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;rojo&#39;</span> <span class="p">:</span> <span class="p">(</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">),</span> <span class="s1">&#39;azul&#39;</span> <span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">),</span> <span class="s1">&#39;verde&#39;</span><span class="p">:</span> <span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mi">255</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span> <span class="p">}</span>
@@ -13954,7 +14093,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[27]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">color</span> <span class="ow">in</span> <span class="n">dicc</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span> <span class="p">:</span>
@@ -13988,7 +14127,7 @@ El código RBG de verde es (0, 255, 0)
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[28]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">rgb</span> <span class="ow">in</span> <span class="n">dicc</span><span class="o">.</span><span class="n">values</span><span class="p">()</span> <span class="p">:</span>
@@ -14022,7 +14161,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[29]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">color</span><span class="p">,</span> <span class="n">rgb</span> <span class="ow">in</span> <span class="n">dicc</span><span class="o">.</span><span class="n">items</span><span class="p">()</span> <span class="p">:</span>
@@ -14066,7 +14205,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[30]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">[</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span> <span class="p">]</span>
@@ -14107,7 +14246,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[31]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">[</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">9</span><span class="p">)</span> <span class="k">if</span> <span class="n">x</span> <span class="o">%</span> <span class="mi">3</span> <span class="o">==</span> <span class="mi">0</span> <span class="p">]</span>
@@ -14148,7 +14287,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[32]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;a&#39;</span><span class="p">,</span><span class="s1">&#39;b&#39;</span><span class="p">,</span><span class="s1">&#39;c&#39;</span><span class="p">]</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">,</span><span class="s1">&#39;2&#39;</span><span class="p">]</span> <span class="p">]</span>
@@ -14188,7 +14327,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[33]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">{</span> <span class="n">x</span> <span class="p">:</span> <span class="nb">len</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Rojo&#39;</span><span class="p">,</span><span class="s1">&#39;Azul&#39;</span><span class="p">,</span><span class="s1">&#39;Verde&#39;</span><span class="p">]</span> <span class="p">}</span>
@@ -14210,7 +14349,7 @@ El código RBG de verde es (0, 255, 0)
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[34]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">s</span> <span class="o">=</span> <span class="p">{</span> <span class="n">z</span><span class="p">:</span><span class="nb">len</span><span class="p">(</span><span class="n">z</span><span class="p">)</span> <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="p">[</span> <span class="n">x</span><span class="o">+</span><span class="s2">&quot; &quot;</span><span class="o">+</span><span class="n">y</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Rojo&#39;</span><span class="p">,</span><span class="s1">&#39;Azul&#39;</span><span class="p">,</span><span class="s1">&#39;Verde&#39;</span><span class="p">]</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">x</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">&#39;R&#39;</span><span class="p">)</span> <span class="k">for</span> <span class="n">y</span> <span class="ow">in</span> <span class="p">[</span><span class="s1">&#39;Oscuro&#39;</span><span class="p">,</span><span class="s1">&#39;Claro&#39;</span><span class="p">]</span> <span class="p">]</span> <span class="p">}</span>
@@ -14227,7 +14366,7 @@ El código RBG de verde es (0, 255, 0)
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[34]:</div>
+<div class="prompt output_prompt">Out[26]:</div>
 
 
 
@@ -14254,7 +14393,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[35]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">Bio</span> <span class="c1"># Carga el módulo de biopython</span>
@@ -14276,7 +14415,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[36]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="k">import</span> <span class="n">array</span> <span class="c1"># Carga &#39;array&#39; desde el modulo numpy.</span>
@@ -14298,7 +14437,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[37]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">numpy</span> <span class="k">import</span> <span class="n">array</span> <span class="k">as</span> <span class="n">ar</span>
@@ -14315,7 +14454,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[37]:</div>
+<div class="prompt output_prompt">Out[29]:</div>
 
 
 
@@ -14349,7 +14488,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[44]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">contarCaracteres</span><span class="p">(</span> <span class="n">cadena</span> <span class="p">)</span> <span class="p">:</span>
@@ -14369,7 +14508,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[44]:</div>
+<div class="prompt output_prompt">Out[30]:</div>
 
 
 
@@ -14423,7 +14562,7 @@ Sin embargo gran parte de la funcionalidad de python proviene de funciones no in
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[45]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">class</span> <span class="nc">Persona</span><span class="p">:</span>
@@ -14479,14 +14618,14 @@ Mi nombre es Laura Lopez
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Tanto para leer o escribir un archivo existente, o crear uno nuevo es necesario "abrirlo".
-Esto se hace con la función <strong>open</strong>. Lo que podemos hacer con ese archivo abierto depende de los argumentos que le pasemos a la función. Finalmente, hay que "cerrar" el archivo. Con la función <strong>close</strong></p>
+Esto se hace con la función <strong>open()</strong>. Lo que podemos hacer con ese archivo abierto depende de los argumentos que le pasemos a la función. Finalmente, hay que "cerrar" el archivo. Con la función <strong>close()</strong></p>
 
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[46]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">fh</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span> <span class="s1">&#39;mi_archivo.txt&#39;</span><span class="p">,</span> <span class="s1">&#39;w&#39;</span><span class="p">)</span>
@@ -14519,7 +14658,7 @@ Esto se hace con la función <strong>open</strong>. Lo que podemos hacer con ese
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[47]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;sam_file.extract.txt&#39;</span>
@@ -14573,7 +14712,7 @@ Esto se hace con la función <strong>open</strong>. Lo que podemos hacer con ese
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[48]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;sam_file.extract.txt&#39;</span>
@@ -14709,7 +14848,7 @@ Las expresiones regulares se describen con cadenas de caracteres donde algunos s
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[52]:</div>
+<div class="prompt input_prompt">In&nbsp;[35]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">re</span>
@@ -14748,7 +14887,7 @@ PF213314 no un pfam accesion válido
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[53]:</div>
+<div class="prompt input_prompt">In&nbsp;[36]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">a</span> <span class="o">=</span> <span class="s1">&#39;DNI:12345678;Laura Lopez&#39;</span>
@@ -14767,7 +14906,7 @@ PF213314 no un pfam accesion válido
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[53]:</div>
+<div class="prompt output_prompt">Out[36]:</div>
 
 
 
@@ -14824,7 +14963,7 @@ PF213314 no un pfam accesion válido
 </div></section></section><section><section>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[57]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">subprocess</span>
@@ -14838,7 +14977,7 @@ PF213314 no un pfam accesion válido
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[58]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">comando</span> <span class="o">=</span> <span class="s1">&#39;dir&#39;</span>
@@ -14863,12 +15002,17 @@ PF213314 no un pfam accesion válido
 
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>Error code:0
+exercises.ipynb
+mi_archivo.txt
+sam_file.extract.txt
 images
 Presentation.ipynb
-README.md
-mi_archivo.txt
+secuencias_filtered.txt
+index.txt
 Presentation.slides.html
-sam_file.extract.txt
+secuencias.txt
+makeIndex.py
+README.md
 </pre>
 </div>
 </div>
@@ -14907,7 +15051,7 @@ sam_file.extract.txt
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[88]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
@@ -14930,7 +15074,7 @@ sam_file.extract.txt
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[76]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">oldDir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
@@ -14977,7 +15121,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[78]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">folder</span> <span class="o">=</span> <span class="s1">&#39;mi_carpeta&#39;</span>
@@ -15000,7 +15144,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[90]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span> <span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">()</span> <span class="p">)</span>
@@ -15020,7 +15164,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>[&#39;.ipynb_checkpoints&#39;, &#39;README.md.copia&#39;, &#39;Presentation.slides.html&#39;, &#39;sam_file.extract.txt&#39;, &#39;README.md&#39;, &#39;mi_archivo.txt&#39;, &#39;images&#39;, &#39;Presentation.ipynb&#39;, &#39;.git&#39;, &#39;.gitignore&#39;]
+<pre>[&#39;secuencias_filtered.txt&#39;, &#39;.ipynb_checkpoints&#39;, &#39;Presentation.slides.html&#39;, &#39;secuencias.txt&#39;, &#39;index.txt&#39;, &#39;mi_carpeta&#39;, &#39;sam_file.extract.txt&#39;, &#39;makeIndex.py&#39;, &#39;README.md&#39;, &#39;.idea&#39;, &#39;mi_archivo.txt&#39;, &#39;exercises.ipynb&#39;, &#39;images&#39;, &#39;Presentation.ipynb&#39;, &#39;.git&#39;, &#39;.gitignore&#39;]
 </pre>
 </div>
 </div>
@@ -15039,7 +15183,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[84]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">rmdir</span><span class="p">(</span><span class="n">folder</span><span class="p">)</span> <span class="c1"># Cuidado, realmente van a borrar una carpeta !!</span>
@@ -15060,7 +15204,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[95]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shutil</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span> <span class="s1">&#39;README.md&#39;</span><span class="p">,</span> <span class="s1">&#39;README.md.copia&#39;</span> <span class="p">)</span>
@@ -15076,7 +15220,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[95]:</div>
+<div class="prompt output_prompt">Out[8]:</div>
 
 
 
@@ -15101,7 +15245,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[96]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">shutil</span><span class="o">.</span><span class="n">move</span><span class="p">(</span><span class="s1">&#39;README.md.copia&#39;</span> <span class="p">,</span><span class="s1">&#39;README.md.copia2&#39;</span><span class="p">)</span>
@@ -15117,7 +15261,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 
 <div class="output_area">
 
-<div class="prompt output_prompt">Out[96]:</div>
+<div class="prompt output_prompt">Out[9]:</div>
 
 
 
@@ -15134,7 +15278,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[97]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1">## Borrar archivos</span>
@@ -15158,7 +15302,7 @@ New working folder: /home/javier/projects/python-leloir-course/images
 
 </div>
 </div>
-</div>
+</div></section></section>
 </div>
 </div>
 
