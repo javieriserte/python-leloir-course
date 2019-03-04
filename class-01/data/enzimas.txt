@@ -1,0 +1,23 @@
+#Enzima;Organismo;Sitio de reconocimiento;Corte
+EcoRI;Escherichia coli;GAATTC;G|AATTC
+EcoRII;Escherichia coli;CCWGG;|CCWGG
+BamHI;Bacillus amyloliquefaciens;GGATCC;G|GATCC
+HindIII;Haemophilus influenzae;AAGCTT;A|AGCTT
+TaqI;Thermus aquaticus;TCGA;T|CGA
+NotI;Nocardia otitidis;GCGGCCGC;GC|GGCCGC
+HinFI;Haemophilus influenzae;GANTC;G|ANTC
+Sau3AI;Staphylococcus aureus;GATC;|GATC
+PvuII;Proteus vulgaris;CAGCTG;CAG|CTG
+SmaI;Serratia marcescens;CCCGGG;CCC|GGG
+HaeIII;Haemophilus aegyptius;GGCC;GG|CC
+AluI;Arthrobacter luteus;AGCT;AG|CT
+EcoRV;Escherichia coli;GATATC;GAT|ATC
+KpnI;Klebsiella pneumoniae;GGTACC;GGTAC|C
+PstI;Providencia stuartii;CTGCAG;CTGCA|G
+SacI;Streptomyces achromogenes;GAGCTC;GAGCT|C
+SalI;Streptomyces albus;GTCGAC;G|TCGAC
+ScaI;Streptomyces caespitosus;AGTACT;AGT|ACT
+SpeI;Sphaerotilus natans;ACTAGT;A|CTAGT
+SphI;Streptomyces phaeochromogenes;GCATGC;GCATG|C
+StuI;Streptomyces tubercidicus;AGGCCT;AGG|CCT
+XbaI;Xanthomonas badrii;TCTAGA;T|CTAGA
