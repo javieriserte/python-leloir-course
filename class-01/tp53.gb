@@ -1,0 +1,380 @@
+LOCUS       NM_001276696            2724 bp    mRNA    linear   PRI 24-FEB-2019
+DEFINITION  Homo sapiens tumor protein p53 (TP53), transcript variant 3, mRNA.
+ACCESSION   NM_001276696
+VERSION     NM_001276696.1
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 2724)
+  AUTHORS   Marcel V, Tran PL, Sagne C, Martel-Planche G, Vaslin L,
+            Teulade-Fichou MP, Hall J, Mergny JL, Hainaut P and Van Dyck E.
+  TITLE     G-quadruplex structures in TP53 intron 3: role in alternative
+            splicing and in production of p53 mRNA isoforms
+  JOURNAL   Carcinogenesis 32 (3), 271-278 (2011)
+   PUBMED   21112961
+REFERENCE   2  (bases 1 to 2724)
+  AUTHORS   Marcel V, Perrier S, Aoubala M, Ageorges S, Groves MJ, Diot A,
+            Fernandes K, Tauro S and Bourdon JC.
+  TITLE     Delta160p53 is a novel N-terminal p53 isoform encoded by
+            Delta133p53 transcript
+  JOURNAL   FEBS Lett. 584 (21), 4463-4468 (2010)
+   PUBMED   20937277
+  REMARK    GeneRIF: Delta133p53 transcript generates two different p53
+            isoforms, Delta133p53 and Delta160p53
+REFERENCE   3  (bases 1 to 2724)
+  AUTHORS   Anczukow O, Ware MD, Buisson M, Zetoune AB, Stoppa-Lyonnet D,
+            Sinilnikova OM and Mazoyer S.
+  TITLE     Does the nonsense-mediated mRNA decay mechanism prevent the
+            synthesis of truncated BRCA1, CHK2, and p53 proteins?
+  JOURNAL   Hum. Mutat. 29 (1), 65-73 (2008)
+   PUBMED   17694537
+  REMARK    GeneRIF: the p53 protein encoded by the 770delT allele is as
+            abundant as the wild-type protein, as removal of the C-terminal p53
+            domain leads to a stabilized mutant protein, whose abundance is
+            markedly increased when NMD is inhibited.
+REFERENCE   4  (bases 1 to 2724)
+  AUTHORS   Bourdon JC.
+  TITLE     p53 Family isoforms
+  JOURNAL   Curr Pharm Biotechnol 8 (6), 332-336 (2007)
+   PUBMED   18289041
+  REMARK    Review article
+REFERENCE   5  (bases 1 to 2724)
+  AUTHORS   Candeias MM, Powell DJ, Roubalova E, Apcher S, Bourougaa K,
+            Vojtesek B, Bruzzoni-Giovanelli H and Fahraeus R.
+  TITLE     Expression of p53 and p53/47 are controlled by alternative
+            mechanisms of messenger RNA translation initiation
+  JOURNAL   Oncogene 25 (52), 6936-6947 (2006)
+   PUBMED   16983332
+  REMARK    GeneRIF: harbouring alternative translation initiation sites, the
+            p53 mRNA gives rise to different levels of the p53 isoforms which
+            help to orchestrate the cell biological outcome of p53 activation
+REFERENCE   6  (bases 1 to 2724)
+  AUTHORS   Murray-Zmijewski F, Lane DP and Bourdon JC.
+  TITLE     p53/p63/p73 isoforms: an orchestra of isoforms to harmonise cell
+            differentiation and response to stress
+  JOURNAL   Cell Death Differ. 13 (6), 962-972 (2006)
+   PUBMED   16601753
+  REMARK    Review article
+REFERENCE   7  (bases 1 to 2724)
+  AUTHORS   Bourdon JC, Fernandes K, Murray-Zmijewski F, Liu G, Diot A,
+            Xirodimas DP, Saville MK and Lane DP.
+  TITLE     p53 isoforms can regulate p53 transcriptional activity
+  JOURNAL   Genes Dev. 19 (18), 2122-2137 (2005)
+   PUBMED   16131611
+  REMARK    GeneRIF: p53 isoforms can regulate p53 transcriptional activity.
+REFERENCE   8  (bases 1 to 2724)
+  AUTHORS   Ghosh A, Stewart D and Matlashewski G.
+  TITLE     Regulation of human p53 activity and cell localization by
+            alternative splicing
+  JOURNAL   Mol. Cell. Biol. 24 (18), 7987-7997 (2004)
+   PUBMED   15340061
+  REMARK    GeneRIF: mechanism of p53 regulation originating through
+            alternative splicing of the human p53 gene resulting in the
+            expression of a novel p53 mRNA
+REFERENCE   9  (bases 1 to 2724)
+  AUTHORS   Yin Y, Stephen CW, Luciani MG and Fahraeus R.
+  TITLE     p53 Stability and activity is regulated by Mdm2-mediated induction
+            of alternative p53 translation products
+  JOURNAL   Nat. Cell Biol. 4 (6), 462-467 (2002)
+   PUBMED   12032546
+  REMARK    Erratum:[Nat Cell Biol 2002 Nov;4(11):912]
+REFERENCE   10 (bases 1 to 2724)
+  AUTHORS   Flaman JM, Waridel F, Estreicher A, Vannier A, Limacher JM, Gilbert
+            D, Iggo R and Frebourg T.
+  TITLE     The human tumour suppressor gene p53 is alternatively spliced in
+            normal cells
+  JOURNAL   Oncogene 12 (4), 813-818 (1996)
+   PUBMED   8632903
+REFERENCE   11 (bases 1 to 2724)
+  AUTHORS   Schneider,K., Zelley,K., Nichols,K.E. and Garber,J.
+  TITLE     Li-Fraumeni Syndrome
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301488
+REFERENCE   12 (bases 1 to 2724)
+  AUTHORS   Dome,J.S. and Huff,V.
+  TITLE     Wilms Tumor Predisposition
+  JOURNAL   (in) Adam MP, Ardinger HH, Pagon RA, Wallace SE, Bean LJH, Stephens
+            K and Amemiya A (Eds.);
+            GENEREVIEWS((R));
+            (1993)
+   PUBMED   20301471
+REFERENCE   13 (bases 1 to 2724)
+  AUTHORS   Lamb,P. and Crawford,L.
+  TITLE     Characterization of the human p53 gene
+  JOURNAL   Mol. Cell. Biol. 6 (5), 1379-1385 (1986)
+   PUBMED   2946935
+REFERENCE   14 (bases 1 to 2724)
+  AUTHORS   Isobe,M., Emanuel,B.S., Givol,D., Oren,M. and Croce,C.M.
+  TITLE     Localization of gene for human p53 tumour antigen to band 17p13
+  JOURNAL   Nature 320 (6057), 84-85 (1986)
+   PUBMED   3456488
+REFERENCE   15 (bases 1 to 2724)
+  AUTHORS   Benchimol,S., Lamb,P., Crawford,L.V., Sheer,D., Shows,T.B.,
+            Bruns,G.A. and Peacock,J.
+  TITLE     Transformation associated p53 protein is encoded by a gene on human
+            chromosome 17
+  JOURNAL   Somat. Cell Mol. Genet. 11 (5), 505-510 (1985)
+   PUBMED   2994241
+REFERENCE   16 (bases 1 to 2724)
+  AUTHORS   Harlow,E., Williamson,N.M., Ralston,R., Helfman,D.M. and Adams,T.E.
+  TITLE     Molecular cloning and in vitro expression of a cDNA clone for human
+            cellular tumor antigen p53
+  JOURNAL   Mol. Cell. Biol. 5 (7), 1601-1610 (1985)
+   PUBMED   3894933
+REFERENCE   17 (bases 1 to 2724)
+  AUTHORS   Zakut-Houri,R., Bienz-Tadmor,B., Givol,D. and Oren,M.
+  TITLE     Human p53 cellular tumor antigen: cDNA sequence and expression in
+            COS cells
+  JOURNAL   EMBO J. 4 (5), 1251-1255 (1985)
+   PUBMED   4006916
+REFERENCE   18 (bases 1 to 2724)
+  AUTHORS   Matlashewski,G., Lamb,P., Pim,D., Peacock,J., Crawford,L. and
+            Benchimol,S.
+  TITLE     Isolation and characterization of a human p53 cDNA clone:
+            expression of the human p53 gene
+  JOURNAL   EMBO J. 3 (13), 3257-3262 (1984)
+   PUBMED   6396087
+COMMENT     REVIEWED REFSEQ: This record has been curated by NCBI staff. The
+            reference sequence was derived from DA453049.1, DQ186648.1,
+            DQ186649.1, AK223026.1 and DQ186650.1.
+            
+            Summary: This gene encodes a tumor suppressor protein containing
+            transcriptional activation, DNA binding, and oligomerization
+            domains. The encoded protein responds to diverse cellular stresses
+            to regulate expression of target genes, thereby inducing cell cycle
+            arrest, apoptosis, senescence, DNA repair, or changes in
+            metabolism. Mutations in this gene are associated with a variety of
+            human cancers, including hereditary cancers such as Li-Fraumeni
+            syndrome. Alternative splicing of this gene and the use of
+            alternate promoters result in multiple transcript variants and
+            isoforms. Additional isoforms have also been shown to result from
+            the use of alternate translation initiation codons from identical
+            transcript variants (PMIDs: 12032546, 20937277). [provided by
+            RefSeq, Dec 2016].
+            
+            Transcript Variant: This variant (3) contains an additional exon in
+            the 3' region, resulting in an alternate 3' coding region and 3'
+            UTR, compared to variant 1. This variant can initiate translation
+            from two in-frame AUG start codons. The isoform represented in this
+            variant (i, also known as delta40p53beta) results from translation
+            initiation at the downstream start codon. It has a shorter
+            N-terminus and a distinct C-terminus, compared to isoform a.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: DQ186648.1 [ECO:0000332]
+            RNAseq introns              :: mixed/partial sample support
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000350]
+            ##Evidence-Data-END##
+            
+            ##RefSeq-Attributes-START##
+            CDS uses downstream in-frame AUG :: experimental evidence
+                                                (PMID:12032546)
+            NMD candidate                    :: translation inferred
+            ##RefSeq-Attributes-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-88                DA453049.1         1-88
+            89-416              DQ186648.1         19-346
+            417-781             DQ186649.1         347-711
+            782-1831            DQ186648.1         712-1761
+            1832-2705           AK223026.1         792-1665
+            2706-2724           DQ186650.1         2257-2275
+FEATURES             Location/Qualifiers
+     source          1..2724
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="17"
+                     /map="17p13.1"
+     gene            1..2724
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /note="tumor protein p53"
+                     /db_xref="GeneID:7157"
+                     /db_xref="HGNC:HGNC:11998"
+                     /db_xref="MIM:191170"
+     exon            1..174
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    95..97
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /note="upstream in-frame stop codon"
+     exon            175..276
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     misc_feature    203..205
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /note="alternative start codon; p53beta"
+     exon            277..298
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            299..577
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     STS             305..503
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="GDB:177814"
+                     /db_xref="UniSTS:154969"
+     STS             319..577
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="GDB:177797"
+                     /db_xref="UniSTS:154963"
+     CDS             320..1228
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /note="isoform i is encoded by transcript variant 3; tumor
+                     protein 53; mutant tumor protein 53; cellular tumor
+                     antigen p53; phosphoprotein p53; transformation-related
+                     protein 53; p53 tumor suppressor; antigen NY-CO-13; tumor
+                     supressor p53"
+                     /codon_start=1
+                     /product="cellular tumor antigen p53 isoform i"
+                     /protein_id="NP_001263625.1"
+                     /db_xref="CCDS:CCDS73971.1"
+                     /db_xref="GeneID:7157"
+                     /db_xref="HGNC:HGNC:11998"
+                     /db_xref="MIM:191170"
+                     /translation="MDDLMLSPDDIEQWFTEDPGPDEAPRMPEAAPPVAPAPAAPTPA
+                     APAPAPSWPLSSSVPSQKTYQGSYGFRLGFLHSGTAKSVTCTYSPALNKMFCQLAKTC
+                     PVQLWVDSTPPPGTRVRAMAIYKQSQHMTEVVRRCPHHERCSDSDGLAPPQHLIRVEG
+                     NLRVEYLDDRNTFRHSVVVPYEPPEVGSDCTTIHYNYMCNSSCMGGMNRRPILTIITL
+                     EDSSGNLLGRNSFEVRVCACPGRDRRTEEENLRKKGEPHHELPPGSTKRALPNNTSSS
+                     PQPKKKPLDGEYFTLQDQTSFQKENC"
+     exon            578..761
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     STS             680..754
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="PMC340938P3"
+                     /db_xref="UniSTS:273171"
+     exon            762..874
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            875..984
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     STS             955..1153
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="PMC310707P2"
+                     /db_xref="UniSTS:272633"
+     STS             959..1033
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="GDB:190076"
+                     /db_xref="UniSTS:155620"
+     exon            985..1121
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1122..1195
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1196..1328
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1329..1435
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1436..2724
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /inference="alignment:Splign:2.1.0"
+     STS             1587..1703
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="D17S1678"
+                     /db_xref="UniSTS:82485"
+     STS             2044..2190
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="D17S1506E"
+                     /db_xref="UniSTS:151711"
+     STS             2579..2655
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /standard_name="WI-20715"
+                     /db_xref="UniSTS:59997"
+     regulatory      2688..2693
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+     polyA_site      2705
+                     /gene="TP53"
+                     /gene_synonym="BCC7; BMFS5; LFS1; P53; TRP53"
+                     /note="The 3' most polyA site has not been determined."
+ORIGIN      
+        1 gatgggattg gggttttccc ctcccatgtg ctcaagactg gcgctaaaag ttttgagctt
+       61 ctcaaaagtc tagagccacc gtccagggag caggtagctg ctgggctccg gggacacttt
+      121 gcgttcgggc tgggagcgtg ctttccacga cggtgacacg cttccctgga ttggcagcca
+      181 gactgccttc cgggtcactg ccatggagga gccgcagtca gatcctagcg tcgagccccc
+      241 tctgagtcag gaaacatttt cagacctatg gaaactactt cctgaaaaca acgttctgtc
+      301 ccccttgccg tcccaagcaa tggatgattt gatgctgtcc ccggacgata ttgaacaatg
+      361 gttcactgaa gacccaggtc cagatgaagc tcccagaatg ccagaggctg ctccccccgt
+      421 ggcccctgca ccagcagctc ctacaccggc ggcccctgca ccagccccct cctggcccct
+      481 gtcatcttct gtcccttccc agaaaaccta ccagggcagc tacggtttcc gtctgggctt
+      541 cttgcattct gggacagcca agtctgtgac ttgcacgtac tcccctgccc tcaacaagat
+      601 gttttgccaa ctggccaaga cctgccctgt gcagctgtgg gttgattcca cacccccgcc
+      661 cggcacccgc gtccgcgcca tggccatcta caagcagtca cagcacatga cggaggttgt
+      721 gaggcgctgc ccccaccatg agcgctgctc agatagcgat ggtctggccc ctcctcagca
+      781 tcttatccga gtggaaggaa atttgcgtgt ggagtatttg gatgacagaa acacttttcg
+      841 acatagtgtg gtggtgccct atgagccgcc tgaggttggc tctgactgta ccaccatcca
+      901 ctacaactac atgtgtaaca gttcctgcat gggcggcatg aaccggaggc ccatcctcac
+      961 catcatcaca ctggaagact ccagtggtaa tctactggga cggaacagct ttgaggtgcg
+     1021 tgtttgtgcc tgtcctggga gagaccggcg cacagaggaa gagaatctcc gcaagaaagg
+     1081 ggagcctcac cacgagctgc ccccagggag cactaagcga gcactgccca acaacaccag
+     1141 ctcctctccc cagccaaaga agaaaccact ggatggagaa tatttcaccc ttcaggacca
+     1201 gaccagcttt caaaaagaaa attgttaaag agagcatgaa aatggttcta tgactttgcc
+     1261 tgatacagat gctacttgac ttacgatggt gttacttcct gataaactcg tcgtaagttg
+     1321 aaaatattat ccgtgggcgt gagcgcttcg agatgttccg agagctgaat gaggccttgg
+     1381 aactcaagga tgcccaggct gggaaggagc caggggggag cagggctcac tccagccacc
+     1441 tgaagtccaa aaagggtcag tctacctccc gccataaaaa actcatgttc aagacagaag
+     1501 ggcctgactc agactgacat tctccacttc ttgttcccca ctgacagcct cccaccccca
+     1561 tctctccctc ccctgccatt ttgggttttg ggtctttgaa cccttgcttg caataggtgt
+     1621 gcgtcagaag cacccaggac ttccatttgc tttgtcccgg ggctccactg aacaagttgg
+     1681 cctgcactgg tgttttgttg tggggaggag gatggggagt aggacatacc agcttagatt
+     1741 ttaaggtttt tactgtgagg gatgtttggg agatgtaaga aatgttcttg cagttaaggg
+     1801 ttagtttaca atcagccaca ttctaggtag gggcccactt caccgtacta accagggaag
+     1861 ctgtccctca ctgttgaatt ttctctaact tcaaggccca tatctgtgaa atgctggcat
+     1921 ttgcacctac ctcacagagt gcattgtgag ggttaatgaa ataatgtaca tctggccttg
+     1981 aaaccacctt ttattacatg gggtctagaa cttgaccccc ttgagggtgc ttgttccctc
+     2041 tccctgttgg tcggtgggtt ggtagtttct acagttgggc agctggttag gtagagggag
+     2101 ttgtcaagtc tctgctggcc cagccaaacc ctgtctgaca acctcttggt gaaccttagt
+     2161 acctaaaagg aaatctcacc ccatcccaca ccctggagga tttcatctct tgtatatgat
+     2221 gatctggatc caccaagact tgttttatgc tcagggtcaa tttctttttt cttttttttt
+     2281 tttttttttc tttttctttg agactgggtc tcgctttgtt gcccaggctg gagtggagtg
+     2341 gcgtgatctt ggcttactgc agcctttgcc tccccggctc gagcagtcct gcctcagcct
+     2401 ccggagtagc tgggaccaca ggttcatgcc accatggcca gccaactttt gcatgttttg
+     2461 tagagatggg gtctcacagt gttgcccagg ctggtctcaa actcctgggc tcaggcgatc
+     2521 cacctgtctc agcctcccag agtgctggga ttacaattgt gagccaccac gtccagctgg
+     2581 aagggtcaac atcttttaca ttctgcaagc acatctgcat tttcacccca cccttcccct
+     2641 ccttctccct ttttatatcc catttttata tcgatctctt attttacaat aaaactttgc
+     2701 tgccacctgt gtgtctgagg ggtg
+//
+
