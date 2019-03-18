@@ -102,3 +102,13 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#Local files
+class-01/6h9u.fasta
+class-01/PF00453.cut.stockholm
+class-01/PF00453.gap_frq.stockholm
+class-01/distances.txt
+class-01/hola.png
+class-01/secuencias_de_ejemplo.clustal
+class-01/secuencias_de_ejemplo.fasta
+class-01/secuencias_de_ejemplo.stockholm
