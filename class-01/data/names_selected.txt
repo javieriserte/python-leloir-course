@@ -1,0 +1,80 @@
+1063	|	Rhodobacter sphaeroides	|		|	scientific name	|
+1507	|	Clostridium sp. ATCC 29733	|		|	scientific name	|
+1752	|	Propionibacterium freudenreichii subsp. shermanii	|		|	scientific name	|
+1772	|	Mycolicibacterium smegmatis	|		|	scientific name	|
+3055	|	Chlamydomonas reinhardtii	|		|	scientific name	|
+3357	|	Pseudotsuga menziesii	|		|	scientific name	|
+3544	|	Mesembryanthemum crystallinum	|		|	scientific name	|
+3562	|	Spinacia oleracea	|		|	scientific name	|
+3617	|	Fagopyrum esculentum	|		|	scientific name	|
+3661	|	Cucurbita maxima	|		|	scientific name	|
+3702	|	Arabidopsis thaliana	|		|	scientific name	|
+3747	|	Fragaria x ananassa	|		|	scientific name	|
+3847	|	Glycine max	|		|	scientific name	|
+3888	|	Pisum sativum	|		|	scientific name	|
+3906	|	Vicia faba	|		|	scientific name	|
+4039	|	Daucus carota	|		|	scientific name	|
+4058	|	Catharanthus roseus	|		|	scientific name	|
+4081	|	Solanum lycopersicum	|		|	scientific name	|
+4097	|	Nicotiana tabacum	|		|	scientific name	|
+4113	|	Solanum tuberosum	|		|	scientific name	|
+4182	|	Sesamum indicum	|		|	scientific name	|
+4232	|	Helianthus annuus	|		|	scientific name	|
+4513	|	Hordeum vulgare	|		|	scientific name	|
+4577	|	Zea mays	|		|	scientific name	|
+4690	|	Lilium longiflorum	|		|	scientific name	|
+5544	|	Trichoderma harzianum	|		|	scientific name	|
+5759	|	Entamoeba histolytica	|		|	scientific name	|
+5802	|	Eimeria tenella	|		|	scientific name	|
+5850	|	Plasmodium knowlesi	|		|	scientific name	|
+5874	|	Theileria annulata	|		|	scientific name	|
+5875	|	Theileria parva	|		|	scientific name	|
+6183	|	Schistosoma mansoni	|		|	scientific name	|
+6210	|	Echinococcus granulosus	|		|	scientific name	|
+6211	|	Echinococcus multilocularis	|		|	scientific name	|
+6239	|	Caenorhabditis elegans	|		|	scientific name	|
+7091	|	Bombyx mori	|		|	scientific name	|
+7159	|	Aedes aegypti	|		|	scientific name	|
+7227	|	Drosophila melanogaster	|		|	scientific name	|
+7830	|	Scyliorhinus canicula	|		|	scientific name	|
+7955	|	Danio rerio	|		|	scientific name	|
+8022	|	Oncorhynchus mykiss	|		|	scientific name	|
+8355	|	Xenopus laevis	|		|	scientific name	|
+8364	|	Xenopus tropicalis	|		|	scientific name	|
+9031	|	Gallus gallus	|		|	scientific name	|
+9541	|	Macaca fascicularis	|		|	scientific name	|
+9601	|	Pongo abelii	|		|	scientific name	|
+9606	|	Homo sapiens	|		|	scientific name	|
+9913	|	Bos taurus	|		|	scientific name	|
+9940	|	Ovis aries	|		|	scientific name	|
+9986	|	Oryctolagus cuniculus	|		|	scientific name	|
+10090	|	Mus musculus	|		|	scientific name	|
+10116	|	Rattus norvegicus	|		|	scientific name	|
+10498	|	African swine fever virus BA71V	|		|	scientific name	|
+10500	|	African swine fever virus Malawi LIL 20/1	|		|	scientific name	|
+29176	|	Neospora caninum	|		|	scientific name	|
+30494	|	Triakis scyllium	|		|	scientific name	|
+39947	|	Oryza sativa Japonica Group	|		|	scientific name	|
+44689	|	Dictyostelium discoideum	|		|	scientific name	|
+49266	|	Fucus vesiculosus	|		|	scientific name	|
+75702	|	Populus euphratica	|		|	scientific name	|
+85636	|	Oenothera elata subsp. hookeri	|		|	scientific name	|
+176652	|	Invertebrate iridescent virus 6	|		|	scientific name	|
+189830	|	Snake adenovirus 1	|		|	scientific name	|
+224914	|	Brucella melitensis bv. 1 str. 16M	|		|	scientific name	|
+233413	|	Mycobacterium tuberculosis variant bovis AF2122/97	|		|	scientific name	|
+237561	|	Candida albicans SC5314	|		|	scientific name	|
+262698	|	Brucella abortus bv. 1 str. 9-941	|		|	scientific name	|
+272626	|	Listeria innocua Clip11262	|		|	scientific name	|
+284813	|	Encephalitozoon cuniculi GB-M1	|		|	scientific name	|
+345201	|	Invertebrate iridescent virus 3	|		|	scientific name	|
+359391	|	Brucella abortus 2308	|		|	scientific name	|
+430066	|	Brucella abortus S19	|		|	scientific name	|
+444178	|	Brucella ovis ATCC 25840	|		|	scientific name	|
+470137	|	Brucella suis ATCC 23445	|		|	scientific name	|
+483179	|	Brucella canis ATCC 23365	|		|	scientific name	|
+561443	|	African swine fever virus tick/South Africa/Pretoriuskop Pr4/1996	|		|	scientific name	|
+561444	|	African swine fever virus warthog/Namibia/Wart80/1980	|		|	scientific name	|
+561445	|	African swine fever virus pig/Kenya/KEN-50/1950	|		|	scientific name	|
+648237	|	Human parvovirus B19 strain HV	|		|	scientific name	|
+654924	|	Frog virus 3 (isolate Goorha)	|		|	scientific name	|

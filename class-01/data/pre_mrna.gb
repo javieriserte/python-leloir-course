@@ -1,0 +1,367 @@
+LOCUS       NM_021215               3895 bp    mRNA    linear   PRI 12-MAR-2019
+DEFINITION  Homo sapiens regulation of nuclear pre-mRNA domain containing 1B
+            (RPRD1B), mRNA.
+ACCESSION   NM_021215
+VERSION     NM_021215.3  GI:149158720
+KEYWORDS    RefSeq.
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 3895)
+  AUTHORS   Zhang Y, Wang S, Kang W, Liu C, Dong Y, Ren F, Wang Y, Zhang J,
+            Wang G, To KF, Zhang X, Sung JJ, Chang Z and Yu J.
+  TITLE     CREPT facilitates colorectal cancer growth through inducing
+            Wnt/beta-catenin pathway by enhancing p300-mediated beta-catenin
+            acetylation
+  JOURNAL   Oncogene 37 (26), 3485-3500 (2018)
+   PUBMED   29563608
+  REMARK    GeneRIF: CREPT plays a pivotal oncogenic role in colorectal
+            carcinogenesis through promoting Wnt/beta-catenin pathway via
+            cooperating with p300. CREPT may serve as a prognostic biomarker of
+            patients with colorectal cancer.
+REFERENCE   2  (bases 1 to 3895)
+  AUTHORS   Li W, Zheng G, Xia J, Yang G, Sun J, Wang X, Wen M, Sun Y, Zhang Z
+            and Jin F.
+  TITLE     Cell cycle-related and expression-elevated protein in tumor
+            overexpression is associated with proliferation behaviors and poor
+            prognosis in non-small-cell lung cancer
+  JOURNAL   Cancer Sci. 109 (4), 1012-1023 (2018)
+   PUBMED   29397041
+  REMARK    GeneRIF: CREPT is closely relevant to the proliferation of NSCLC
+            cells.
+REFERENCE   3  (bases 1 to 3895)
+  AUTHORS   Sun M, Si G, Sun HS and Si FC.
+  TITLE     Inhibition of CREPT restrains gastric cancer growth by regulation
+            of cycle arrest, migration and apoptosis via ROS-regulated p53
+            pathway
+  JOURNAL   Biochem. Biophys. Res. Commun. 496 (4), 1183-1190 (2018)
+   PUBMED   29402413
+  REMARK    GeneRIF: Altogether, our results provided a novel insight into
+            CREPT in regulating gastric cancer progression through apoptosis
+            regulated by ROS/p53 pathways.
+REFERENCE   4  (bases 1 to 3895)
+  AUTHORS   Kuang YS, Wang Y, Ding LD, Yang L, Wang Y, Liu SH, Zhu BT, Wang XN,
+            Liu HY, Li J, Chang ZJ, Wang YY and Jia BQ.
+  TITLE     Overexpression of CREPT confers colorectal cancer sensitivity to
+            fluorouracil
+  JOURNAL   World J. Gastroenterol. 24 (4), 475-483 (2018)
+   PUBMED   29398868
+  REMARK    GeneRIF: Aberrant overexpression of CREPT contributes to
+            tumorigenesis of colorectal cancer by promoting cell proliferation
+            and accelerating the cell cycle, and confers sensitivity to
+            5-fluorouracil.
+REFERENCE   5  (bases 1 to 3895)
+  AUTHORS   Liang Z, Feng Q, Xu L, Li S and Zhou L.
+  TITLE     CREPT regulated by miR-138 promotes breast cancer progression
+  JOURNAL   Biochem. Biophys. Res. Commun. 493 (1), 263-269 (2017)
+   PUBMED   28893536
+  REMARK    GeneRIF: Mechanistically, CREPT regulated beta-catenin/TCF4/cyclin
+            D1 pathway in BC. In conclusion, the data suggested that
+            miR-138/CREPT involved BC progression, providing potential
+            therapeutic targets for BC.
+REFERENCE   6  (bases 1 to 3895)
+  AUTHORS   Wang Y, Qiu H, Hu W, Li S and Yu J.
+  TITLE     RPRD1B promotes tumor growth by accelerating the cell cycle in
+            endometrial cancer
+  JOURNAL   Oncol. Rep. 31 (3), 1389-1395 (2014)
+   PUBMED   24452636
+  REMARK    GeneRIF: RPRD1B overexpression promotes tumor growth and
+            accelerates cell cycle progression.
+REFERENCE   7  (bases 1 to 3895)
+  AUTHORS   Lu D, Wu Y, Wang Y, Ren F, Wang D, Su F, Zhang Y, Yang X, Jin G,
+            Hao X, He D, Zhai Y, Irwin DM, Hu J, Sung JJ, Yu J, Jia B and Chang
+            Z.
+  TITLE     CREPT accelerates tumorigenesis by regulating the transcription of
+            cell-cycle-related genes
+  JOURNAL   Cancer Cell 21 (1), 92-104 (2012)
+   PUBMED   22264791
+  REMARK    GeneRIF: CREPT increases cyclin D1 transcription during
+            tumorigenesis.
+REFERENCE   8  (bases 1 to 3895)
+  AUTHORS   Ni Z, Olsen JB, Guo X, Zhong G, Ruan ED, Marcon E, Young P, Guo H,
+            Li J, Moffat J, Emili A and Greenblatt JF.
+  TITLE     Control of the RNA polymerase II phosphorylation state in promoter
+            regions by CTD interaction domain-containing proteins RPRD1A and
+            RPRD1B
+  JOURNAL   Transcription 2 (5), 237-242 (2011)
+   PUBMED   22231121
+REFERENCE   9  (bases 1 to 3895)
+  AUTHORS   Beausoleil SA, Jedrychowski M, Schwartz D, Elias JE, Villen J, Li
+            J, Cohn MA, Cantley LC and Gygi SP.
+  TITLE     Large-scale characterization of HeLa cell nuclear phosphoproteins
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 101 (33), 12130-12135 (2004)
+   PUBMED   15302935
+REFERENCE   10 (bases 1 to 3895)
+  AUTHORS   Deloukas P, Matthews LH, Ashurst J, Burton J, Gilbert JG, Jones M,
+            Stavrides G, Almeida JP, Babbage AK, Bagguley CL, Bailey J, Barlow
+            KF, Bates KN, Beard LM, Beare DM, Beasley OP, Bird CP, Blakey SE,
+            Bridgeman AM, Brown AJ, Buck D, Burrill W, Butler AP, Carder C,
+            Carter NP, Chapman JC, Clamp M, Clark G, Clark LN, Clark SY, Clee
+            CM, Clegg S, Cobley VE, Collier RE, Connor R, Corby NR, Coulson A,
+            Coville GJ, Deadman R, Dhami P, Dunn M, Ellington AG, Frankland JA,
+            Fraser A, French L, Garner P, Grafham DV, Griffiths C, Griffiths
+            MN, Gwilliam R, Hall RE, Hammond S, Harley JL, Heath PD, Ho S,
+            Holden JL, Howden PJ, Huckle E, Hunt AR, Hunt SE, Jekosch K,
+            Johnson CM, Johnson D, Kay MP, Kimberley AM, King A, Knights A,
+            Laird GK, Lawlor S, Lehvaslaiho MH, Leversha M, Lloyd C, Lloyd DM,
+            Lovell JD, Marsh VL, Martin SL, McConnachie LJ, McLay K, McMurray
+            AA, Milne S, Mistry D, Moore MJ, Mullikin JC, Nickerson T, Oliver
+            K, Parker A, Patel R, Pearce TA, Peck AI, Phillimore BJ,
+            Prathalingam SR, Plumb RW, Ramsay H, Rice CM, Ross MT, Scott CE,
+            Sehra HK, Shownkeen R, Sims S, Skuce CD, Smith ML, Soderlund C,
+            Steward CA, Sulston JE, Swann M, Sycamore N, Taylor R, Tee L,
+            Thomas DW, Thorpe A, Tracey A, Tromans AC, Vaudin M, Wall M, Wallis
+            JM, Whitehead SL, Whittaker P, Willey DL, Williams L, Williams SA,
+            Wilming L, Wray PW, Hubbard T, Durbin RM, Bentley DR, Beck S and
+            Rogers J.
+  TITLE     The DNA sequence and comparative analysis of human chromosome 20
+  JOURNAL   Nature 414 (6866), 865-871 (2001)
+   PUBMED   11780052
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. The reference sequence was derived from
+            BP359144.1, BC033629.1 and AK092567.1.
+            On Jun 19, 2007 this sequence version replaced NM_021215.2.
+            
+            Publication Note:  This RefSeq record includes a subset of the
+            publications that are available for this gene. Please see the Gene
+            record to access additional publications.
+            
+            ##Evidence-Data-START##
+            Transcript exon combination :: BC033629.1, SRR1803612.101574.1
+                                           [ECO:0000332]
+            RNAseq introns              :: single sample supports all introns
+                                           SAMEA1965299, SAMEA1966682
+                                           [ECO:0000348]
+            ##Evidence-Data-END##
+            COMPLETENESS: complete on the 3' end.
+PRIMARY     REFSEQ_SPAN         PRIMARY_IDENTIFIER PRIMARY_SPAN        COMP
+            1-465               BP359144.1         1-465
+            466-2232            BC033629.1         250-2016
+            2233-2457           AK092567.1         1188-1412
+            2458-3140           BC033629.1         2242-2924
+            3141-3867           AK092567.1         2100-2826
+            3868-3895           BC033629.1         3652-3679
+FEATURES             Location/Qualifiers
+     source          1..3895
+                     /organism="Homo sapiens"
+                     /mol_type="mRNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="20"
+                     /map="20q11.23"
+     gene            1..3895
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /note="regulation of nuclear pre-mRNA domain containing
+                     1B"
+                     /db_xref="GeneID:58490"
+                     /db_xref="HGNC:HGNC:16209"
+                     /db_xref="MIM:614694"
+     exon            1..553
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     CDS             403..1383
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /note="cell-cycle related and expression-elevated protein
+                     in tumor; Ku70-binding protein 5-Hera"
+                     /codon_start=1
+                     /product="regulation of nuclear pre-mRNA domain-containing
+                     protein 1B"
+                     /protein_id="NP_067038.1"
+                     /db_xref="GI:11034845"
+                     /db_xref="CCDS:CCDS13301.1"
+                     /db_xref="GeneID:58490"
+                     /db_xref="HGNC:HGNC:16209"
+                     /db_xref="MIM:614694"
+                     /translation="MSSFSESALEKKLSELSNSQQSVQTLSLWLIHHRKHAGPIVSVW
+                     HRELRKAKSNRKLTFLYLANDVIQNSKRKGPEFTREFESVLVDAFSHVAREADEGCKK
+                     PLERLLNIWQERSVYGGEFIQQLKLSMEDSKSPPPKATEEKKSLKRTFQQIQEEEDDD
+                     YPGSYSPQDPSAGPLLTEELIKALQDLENAASGDATVRQKIASLPQEVQDVSLLEKIT
+                     DKEAAERLSKTVDEACLLLAEYNGRLAAELEDRRQLARMLVEYTQNQKDVLSEKEKKL
+                     EEYKQKLARVTQVRKELKSHIQSLPDLSLLPNVTGGLAPLPSAGDLFSTD"
+     misc_feature    406..408
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="N-acetylserine. {ECO:0000244|PubMed:22223895};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     acetylation site"
+     misc_feature    796..798
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     phosphorylation site"
+     misc_feature    802..804
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:20068231,
+                     ECO:0000244|PubMed:23186163, ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     phosphorylation site"
+     misc_feature    883..885
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphotyrosine. {ECO:0000244|PubMed:24275569};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     phosphorylation site"
+     misc_feature    898..900
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000244|PubMed:18669648};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     phosphorylation site"
+     misc_feature    1297..1299
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /experiment="experimental evidence, no additional details
+                     recorded"
+                     /note="Phosphoserine. {ECO:0000250|UniProtKB:Q96P16};
+                     propagated from UniProtKB/Swiss-Prot (Q9NQG5.1);
+                     phosphorylation site"
+     exon            554..683
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     exon            684..817
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     exon            818..930
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     exon            931..1057
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1058..1233
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     exon            1234..3872
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /inference="alignment:Splign:2.1.0"
+     STS             1684..1952
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /standard_name="A002U21"
+                     /db_xref="UniSTS:42443"
+     STS             2310..2624
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /standard_name="RH120583"
+                     /db_xref="UniSTS:132416"
+     STS             3646..3868
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+                     /standard_name="WI-22173"
+                     /db_xref="UniSTS:64037"
+     regulatory      3849..3854
+                     /regulatory_class="polyA_signal_sequence"
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+     polyA_site      3872
+                     /gene="RPRD1B"
+                     /gene_synonym="C20orf77; CREPT; dJ1057B20.2; K-H;
+                     Kub5-Hera; NET60"
+ORIGIN      
+        1 aggctcgagc ggtcaaagct ctttccgggg gcccggggaa ctactctcct tgcctcgctc
+       61 tgtctccttc gaagtgctct gcgcgaggtt cagagcggcc gccgcctcca aagggacggt
+      121 tttctagagc tccgacgcct ctcggtgccc ctctgctccg gcccttgccc tttgacctcg
+      181 ctctcgcggc agggtgagag gtcgggtggc catcttgtgg cggcggcgcg ggcggctgtt
+      241 actgcggaga cccatcccct cccccttctc gcacccctgg cagtctgtca gtcggtaaaa
+      301 agtcccgcag cctgtcaggt gaggccccgg cctcgtgccg tcgctcttcc cgccgcactg
+      361 ggcggcccag gccgctccct gccgggcctc actgccgcca ccatgtcctc cttctctgag
+      421 tcggcgctgg agaagaagct ctcggagctg agcaactctc agcagagcgt gcagaccctg
+      481 tccctttggc tcatccacca ccgcaagcac gcgggaccca tcgtctccgt gtggcaccgc
+      541 gagctccgca aagccaaatc aaatagaaag cttacttttc tgtatttagc gaatgatgtc
+      601 atccaaaaca gtaaaaggaa aggacctgaa ttcactagag aatttgaatc tgtccttgtg
+      661 gatgcttttt ctcatgttgc cagagaggca gatgaaggct gtaaaaaacc tttagaaaga
+      721 ttgctgaaca tctggcaaga acgaagtgtg tatggcggcg agttcataca gcagctgaag
+      781 ctgtctatgg aggactccaa gagccctccc cccaaagcaa cagaagagaa gaaatctctg
+      841 aaacgaactt ttcagcaaat tcaggaggag gaggatgacg actaccctgg cagctactct
+      901 cctcaggatc cttctgcagg acccctcttg actgaggaac taatcaaagc tttgcaggat
+      961 ctggaaaatg ccgcatcagg ggatgctact gtccgacaga aaattgcttc tctgccccag
+     1021 gaagtgcaag atgtttctct attggaaaaa ataacagaca aagaggcagc tgaacgtctt
+     1081 tcaaaaacag tagatgaagc atgtctgtta ctagcagaat ataacgggcg cctggcagca
+     1141 gaactggagg accgtcgcca gctggctcgg atgttggtgg agtataccca gaatcagaaa
+     1201 gatgttttgt cggagaagga gaaaaaacta gaggaataca aacagaagct tgcacgagta
+     1261 acccaggtcc gcaaggaact gaaatcccat attcagagct tgccagacct ctcactgctg
+     1321 cccaacgtca cagggggctt agcccccctg ccctctgctg gggacctgtt ttcaactgac
+     1381 taggatgggt gtcatgtccc agatttctgt ttgtaccagc agaaagaaga gggcaagtca
+     1441 tggttggaaa taaccttcta gcccctggtt ctatcccttc ttccgcccag ccccccagcc
+     1501 tcaagaaaga acctcagact ctgattctcc tcttcagcct ctcatcttga gcacagttca
+     1561 gaacagtggc gactggaatc tggtttatat tcatatttgc aaagactaca gactttttct
+     1621 cccacttcat attttcatgc ccccctgttg gttttccatt cttaactgtc tccttatacc
+     1681 taagaagtta tgaaaatcat gtgtacttct ggaagctttc gaaagaatct tgtccctcat
+     1741 gacagcattt tatcatgaaa gcagcttctc ctttctgggc tgggcttgtt caagttcggt
+     1801 gtgggcttcc actaaggcac ttgtcctgga gacgttggct ttcccagctg catctgcccc
+     1861 aaaaggttgt aggcacagct gtcgtagcgt tgccataaag agtttgccaa atctctgatc
+     1921 ctccctttcc attgcttctc ctagtgatgc acgaagatta ggtgcattta ttttgtaaac
+     1981 agattggaga atctagcaat aagattcaaa gctaatctgg agcataaagg cacagttcag
+     2041 agacagaata acagggatca caagcatgaa ttaaaaggaa tttatttgct tcaagttcct
+     2101 agatacaacc ttcccatgct gcacttctcc actgtcggag cacgttccga aaaacagaat
+     2161 gccttgatcc ctggtgggtg cgaaggcagt tgttagggat ggcaggcatt ggtgggctcc
+     2221 aaaagatgaa ggccccacac acaggtgtgc tgcatttggg atctgtgtgg gtgtttcttg
+     2281 gaccctttct tctgggagta gggtacacac taacgtttaa tccgctgtct gggtgcatgt
+     2341 ccacagtacg gtggctaaac tcgaacatca ctgcaaatag gacgctgagc aggtccgtct
+     2401 gtcatgtcac gccactgcac aggtccttgt ccccacacga cggggagtac ttgcgtcaga
+     2461 tgttattgaa tagctcgtct cgggcagggg aagcggggag ttggggatat taattggggg
+     2521 ttttaattct attatcatgt cagctgacat tatgactata taatgtagtt agagacaatt
+     2581 tttatcttgc ttatagtaaa ggttcagcct gccaattgta aatcattcta atttggcagg
+     2641 cttatttttg acattggaaa gggcagaaag cgatttgccc cagtagtgta ataggagtta
+     2701 tagaccagag gctgaaaccc aaactatata aaaaggaatt cagtggaggg ggctttgtaa
+     2761 tctccattaa tttgtgttgc tacttccagg atcaccaaaa attacatgta attttacatg
+     2821 ttaaacacat tgaaacataa cctatgttta taaagcataa cgggcttccc ttccagaagc
+     2881 tctcctgctt gtcatgaagt gagaacaatg aaaagtcata gcagatactc agtttaactc
+     2941 tgtgtagaac ctagtagtgt ttgagctgtt attcagattt gaattcagac tgtgtgttgt
+     3001 ttgcttatgg acactgcctg tcgttctgtc actgttaaat taatgagtct ataaggtttt
+     3061 tcttccagag gccataggtg acatcactaa aattgcaaga taaattgtaa tctttgctgc
+     3121 tgctgcactc cccaacctct cccccacccc ccgtggtgtg ctgctttcta gatgagcgtg
+     3181 ttttggagca ggcccatctg ggacactcta tgctttcacc aaggaagtgc gatctgagca
+     3241 gccacaatcc agccaaaaga ggatcgtaga tatttgctct gatcaactag atgaaaatat
+     3301 agcagaatgg atttagccca ctgctctgtt ttatccaact gagtctctga ccagcaattg
+     3361 gtgcataatt attacagcaa aagttaagaa atgaaactgt agcaattatg taaatgaatg
+     3421 tgttggcctc ttaatacctg ttactagtgg acttcctgtg aggaagttag ttttttgttt
+     3481 tgatgaaatg ctttcgtttt ttaaatctta attctgctgt ccacatcctc ccaaagtgtg
+     3541 cttacttcat ttgtttaatt taaatgaact ttcctccttg tatgtatgag gtgacttggt
+     3601 gggtggggtg ggtggttttt gtttttgtgt tttttctttc ttagggcatc tgtaggcctc
+     3661 aaaggacctt tcctttaggt catattcctc agaaagtctt caatcttccc ttgtttttgt
+     3721 ttgtttgttt ttcttaaaga atattttcaa agcttaaatt tgtatattaa tttaggacta
+     3781 tttagaagta taggctgtcg ttggcggcag cagtatattc tgaaatgtct catagatata
+     3841 tatttttgaa taaagatggt gttgttgaac aaaaaaaaaa aaaaaaaaaa aaaaa
+//
+
